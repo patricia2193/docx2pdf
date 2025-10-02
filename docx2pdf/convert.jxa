@@ -58,7 +58,7 @@ function isDir(path) {
   return isDir[0];
 }
 
-function parseArgs([inputPath, outputPath, keepActive, ...rest]) {
+function parseArgs([inputPath, outputPath, keepActive, headless, ...rest]) {
   const [scriptPath] = getScriptPathAndFolder();
   if (inputPath === undefined || rest.length != 0) {
     console.log(
