@@ -170,7 +170,7 @@ def cli():
         "--headless",
         action="store_true",
         default=False,
-        help="run Word invisibly (macOS only)",  # ✅ New CLI flag
+        help="run Word invisibly (macOS only)",
     )
     parser.add_argument(
         "--version", action="store_true", default=False, help="display version and exit"
